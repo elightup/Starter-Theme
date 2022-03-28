@@ -12,9 +12,6 @@ class Loader
         add_action('widgets_init', [$this , 'tmt_widgets_init']);
         add_action('wp_enqueue_scripts', [ $this, 'enqueue_assets' ]);
 
-        add_action('widgets_init', [$this , 'register_taxonomy_product']);
-        add_filter('manage_posts_columns', [ $this,'rv_posts_column_views']);
-        add_action('manage_posts_custom_column', [$this,'rv_posts_custom_column_views']);
         $this->init();
 
     }
