@@ -1,0 +1,21 @@
+:root {
+	--font-main: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+	--color-text: #2e3440;
+	--color-bg: #fff;
+	--color-bg-2: #eceff4;
+	--color-line: #eceff4;
+	--color-link: #bf616a;
+	--color-btn-bg: #242933;
+	--color-btn-txt: #fff;
+	--color-focus: #88c0d0;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-txt: #eceff4;
+		--color-bg-1: #2e3440;
+		--color-bg-2: #3b4252;
+		--color-line: #3b4252;
+	}
+}
