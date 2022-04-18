@@ -1,0 +1,22 @@
+/*!
+ * Theme Name:   fptschool
+ * Theme URI:    https://elightup.com
+ * Author:       eLightUp
+ * Author URI:   https://elightup.com
+ * Description:  The theme for independentlink.com.au website.
+ * Version:      1.0.0
+ * Text Domain:  fpt
+ *
+ */
+
+@import "variables";
+@import "mixins";
+
+@import "base/element";
+@import "base/accessibility";
+
+@import "components/layout";
+@import "components/header";
+@import "components/footer";
+@import "components/archive";
+@import "components/single";

@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"css": "sass sass:css  sass/style.scss:style.css",
+		"watchs": "node-sass sass -o . --output-style compressed -w",
+		"watch": "sass sass:css  sass/style.scss:style.css --style=compressed --watch",
+		"sync": "browser-sync start --proxy \"localhost/fptschool\" --files \"style.css\" --files \"css/*.css\"",
+		"start": "npm run watch & npm run watch:home"
+	},
+	"devDependencies": {
+		"dart-sass": "^1.25.0"
+	},
+	"dependencies": {
+		"sass": "^1.49.10"
+	}
+}
